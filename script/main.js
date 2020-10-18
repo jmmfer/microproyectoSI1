@@ -1,5 +1,5 @@
 function carrusel() {
-    fillSkill()
+  
     imagenes= ["img/pexels-photo-115655.jpeg","img/pexels-photo-461064.jpeg","img/pexels-photo-930530.jpeg"];
     i=0;
     window.setInterval(function(){
@@ -41,6 +41,9 @@ function fillSkill(){
     
 }*/
 document.getElementById("formulario").onsubmit = function(){
+    
+
+
     var x = document.getElementById("name").value;
     var valido = true;
     var mensaje = "";
@@ -71,6 +74,13 @@ document.getElementById("formulario").onsubmit = function(){
     if(!valido){
         alert(mensaje);
     }else{ 
+        
+        var a = document.getElementById("name").value;
+        var b = document.getElementById("msg").value;
+        var c = document.getElementById("mail").value;
+        console.log("nombre:"+a);
+        console.log("mail:"+c);
+        console.log("msg:"+b);
         alert("su mensaje ha sido enviado")
     }
     return valido;
