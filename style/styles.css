@@ -71,3 +71,36 @@ ul{
     
     
 }
+/*---hero---*/
+hr{
+ 
+    overflow: visible; /* For IE */
+    padding: 10px 0px;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+  
+     
+     
+   
+  }
+
+#showcase{
+    width: 100%;
+    height: 550px;
+    background-image: url("../img/pexels-photo-115655.jpeg");
+    margin-bottom: 40px;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+.flechabottom{
+    font-size: 400px;
+    color: silver;
+}
