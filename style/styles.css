@@ -28,49 +28,6 @@ ul{
     width: 95%;
     margin: auto;
 }
-/*---navigation----*/
-.nav-main{
-    font-size: 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    padding: 50px 0px;
-    background:silver;
-}
-.nav-main ul {
-    display: flex;
-}
-
-.nav-main ul li {
-    padding: 69px;
-    
-}
-.nav-main ul li a:hover {
-    border-bottom: 2px solid white;
-    
-}
-
-.nav-main ul.nav-menu {
-    flex: 1;
-    margin-left: 20px;
-   
-}
-
-.menu-btn p{
-    font-size: 30px;
-    position: absolute;
-    right: -270px;
-    bottom: 24px;
-
-}
-.nav-brand{
-    width: 200px;
-    position: relative;
-    right: -580px;
-    
-    
-}
 /*---hero---*/
 hr{
  
@@ -103,4 +60,55 @@ hr{
 .flechabottom{
     font-size: 400px;
     color: silver;
+}
+/*---navigation----*/
+.nav-main{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 50px 0px;
+    background:silver;
+}
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 69px;
+    
+}
+.nav-main ul li a:hover {
+    border-bottom: 2px solid white;
+    
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+   
+}
+.menu-btn{
+    color: #FF5850;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 40px;
+    z-index: 2;
+    font-size: 4.5rem;
+}
+.menu-btn p{
+    font-size: 30px;
+    position: absolute;
+    right: -270px;
+    bottom: 24px;
+
+}
+.nav-brand{
+    width: 200px;
+    position: relative;
+    right: -580px;
+    
+    
 }
